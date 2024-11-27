@@ -1,0 +1,47 @@
+# Intro to Machine Learning 
+Course: Tufts CS 135 | Fall 2023
+HW2: Evaluating Binary Classifiers and Implementing Logistic Regression
+
+## Overview
+This homework focuses on evaluating binary classifiers and implementing logistic regression for cancer-risk screening. The goal is to implement performance metrics for binary classifiers and understand the impact of adding a new feature (a marker) to a predictive model.
+
+## Problems
+
+### Problem 1: Binary Classifier for Cancer-Risk Screening
+1. Performance Metrics: Implement performance metrics such as True Positives, False Positives, Accuracy, True Positive Rate (TPR), and Positive Predictive Value (PPV).
+2. Model Evaluation: Use logistic regression to assess the impact of a new feature (`marker`) on predicting cancer risk. Compare the 2-feature model (`age`, `famhistory`) with the 3-feature model (`marker`, `age`, `famhistory`) using ROC curves and decision thresholds.
+3. Threshold Selection: Explore different thresholding strategies to maximize the True Positive Rate (TPR) while satisfying specific PPV or TPR constraints. Evaluate model performance using confusion matrices and TPR/PPV metrics across various thresholds.
+
+### Problem 2: Computing the Loss for Logistic Regression without Numerical Issues
+1. Binary Cross-Entropy: Implement the binary cross-entropy loss for logistic regression without using external libraries. This loss function will be used for training logistic regression models and assessing their performance.
+
+## Tasks
+
+- Problem 1: Implement the following functions in `binary_metrics.py` and `hw2_notebook.ipynb`:
+  - `calc_TP_TN_FP_FN`
+  - `calc_ACC`
+  - `calc_TPR`
+  - `calc_PPV`
+  - Evaluate models using logistic regression (`sklearn.linear_model.LogisticRegression`).
+  - Compare models using ROC curves and select decision thresholds that optimize PPV or TPR.
+  
+- Problem 2: Implement `calc_mean_binary_cross_entropy_from_probas` in `proba_metrics.py` to compute the binary cross-entropy loss for predicted probabilities.
+
+## Data
+- Dataset: The task uses a cancer-risk dataset with medical history data for 750 patients. The features include `age`, `famhistory`, and `marker`, which may help predict whether a patient has cancer.
+
+## Report
+- The report should include figures and explanations for model evaluation, ROC analysis, confusion matrices, and threshold selection strategies. Provide justifications for model choices and discuss the potential impact of using the logistic regression models in a real-world screening task.
+
+## Files to Submit
+- Source Code: Submit a ZIP file containing:
+  - `binary_metrics.py`
+  - `proba_metrics.py`
+  - `logsumexp.py`
+  - `hw2_notebook.ipynb`
+  
+- Report: A PDF report with analysis, figures, and explanations.
+
+---
+
+This homework requires coding and analysis to implement a logistic regression classifier for a medical application, evaluating model performance, and selecting the best decision thresholds.
