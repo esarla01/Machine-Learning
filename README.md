@@ -1,7 +1,9 @@
-Machine Learning Assignments and Projects
-Overview
+### Machine Learning Assignments and Projects
+
+# Overview
 This repository contains a series of machine learning assignments and projects covering fundamental concepts and techniques in data science and artificial intelligence.
-Assignments
+
+# Assignments
 HW1: Regression
 
 Focuses on regression techniques and model evaluation
