@@ -1,0 +1,34 @@
+# Intro to Machine Learning
+Course: Tufts CS 135 | Fall 2023
+HW1 - PDF - Regression & CV
+
+## Overview
+This project explores core machine learning concepts, including regression, cross-validation, and regularization, through tasks that focus on building and evaluating models to predict vehicle fuel efficiency (mpg) based on various vehicle characteristics.
+
+## Tasks
+1. Code Tasks:
+    - Implement Python functions for performance metrics (e.g., RMSE), linear regression, and cross-validation.
+    - Code completion includes the creation of functions for model fitting, prediction, and validation.
+2. Data Analysis:
+    - Analyze vehicle data (horsepower, weight, etc.) to build predictive models.
+    - Implement polynomial regression, penalized regression, and cross-validation to refine model performance.
+
+## Objectives
+- Understand the mechanics of linear regression, polynomial regression, and regularization techniques like Ridge.
+- Use cross-validation to assess model performance and select the best hyperparameters.
+- Apply error metrics such as RMSE for model evaluation.
+
+## Methodology
+- Implement core functionalities in `performance_metrics.py`, `LeastSquaresLinearRegression.py`, and `cross_validation.py`.
+- Use sklearn's tools in conjunction with custom implementations to perform regression analysis and evaluate results across training, validation, and test datasets.
+
+## Report
+- Problem 1: Polynomial Regression — Evaluate the impact of polynomial degree on model performance.
+- Problem 2: Penalized Polynomial Regression — Use Ridge regularization to improve model performance.
+- Problem 3: Cross-Validation — Use 10-fold cross-validation to fine-tune hyperparameters and select the best model.
+
+## Results
+- Key Findings: Best polynomial degree for predicting mpg, optimal regularization strength (alpha), and comparisons between different models.
+- Deliverables:
+    - Python code in a ZIP file
+    - PDF report summarizing analysis and findings
