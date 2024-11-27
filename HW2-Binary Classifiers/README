@@ -41,7 +41,3 @@ This homework focuses on evaluating binary classifiers and implementing logistic
   - `hw2_notebook.ipynb`
   
 - Report: A PDF report with analysis, figures, and explanations.
-
----
-
-This homework requires coding and analysis to implement a logistic regression classifier for a medical application, evaluating model performance, and selecting the best decision thresholds.

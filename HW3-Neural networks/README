@@ -1,0 +1,50 @@
+# Intro to Machine Learning
+Course: Tufts CS 135 | Fall 2023
+HW3: Neural Networks and Gradient Descent
+
+
+## Overview
+This project introduces you to machine learning by training a multi-layer perceptron (MLP) on a binary classification task. You will gain hands-on experience with optimization algorithms (L-BFGS and SGD), hyperparameter tuning, and understanding the impact of different model architectures on performance. The goal is to explore the relationships between model size, optimization methods, and performance in a classification setting.
+
+---
+
+## Problems
+1. MLPs with L-BFGS: Investigate what model size is effective for training MLPs using L-BFGS.
+2. MLPs with SGD: Explore the impact of batch size and step size (learning rate) on model performance when using SGD.
+3. Create Performance Plots: Replicate and create your own plots comparing batch size and step size for SGD.
+4. Forward Propagation Implementation: Implement forward propagation for a neural network, connecting your understanding of regression models to neural networks.
+
+---
+
+## Tasks
+- Problem 1: Train MLPs using L-BFGS with different hidden layer sizes (4, 16, 64, 256), run multiple initializations, and analyze training and test performance.
+- Problem 2: Train MLPs with SGD, adjusting batch sizes and learning rates. Analyze and recommend optimal settings based on training time, log loss, and error rate.
+- Problem 3: Replicate Figure 2 and generate your own performance plot comparing different batch sizes and step sizes for SGD.
+- Problem 4: Implement forward propagation and gain an understanding of the mathematical mechanics behind neural networks.
+
+---
+
+## Data
+- Dataset: Toy binary classification dataset called "Flower" with 2D feature vectors and binary labels.
+    - Task: Classify the data using neural networks. The data is designed so that it cannot be easily classified using a simple linear boundary.
+    - Performance Metrics: Use log loss and error rates for evaluation on training and test sets.
+
+---
+
+## Report
+- Write a concise report (max 4 pages) detailing your work, including:
+    - Task 1: Analysis of model performance with different hidden layer sizes using L-BFGS.
+    - Task 2: Discussion on SGD performance with different batch sizes and learning rates.
+    - Task 3: Reflections on the effectiveness of batch size and learning rate adjustments.
+    - Task 4: Explanation of forward propagation implementation.
+- Focus on clarity, conciseness, and justification for your choices. Avoid including code in the report.
+
+---
+
+## Files to Submit
+- PDF Report: Submit your report in PDF format via Gradescope.
+- ZIP Source Code: Submit a ZIP file containing:
+    - `neural_networks.py` (for autograder)
+    - `hw3_notebook.ipynb` (for manual assessment if needed)
+- Reflection Form: Complete and submit a reflection form.
+
