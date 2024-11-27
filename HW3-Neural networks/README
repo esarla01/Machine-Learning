@@ -4,7 +4,7 @@ HW3: Neural Networks and Gradient Descent
 
 
 ## Overview
-This project introduces you to machine learning by training a multi-layer perceptron (MLP) on a binary classification task. You will gain hands-on experience with optimization algorithms (L-BFGS and SGD), hyperparameter tuning, and understanding the impact of different model architectures on performance. The goal is to explore the relationships between model size, optimization methods, and performance in a classification setting.
+This project introduces us to machine learning by training a multi-layer perceptron (MLP) on a binary classification task. We will gain hands-on experience with optimization algorithms (L-BFGS and SGD), hyperparameter tuning, and understanding the impact of different model architectures on performance. The goal is to explore the relationships between model size, optimization methods, and performance in a classification setting.
 
 ---
 

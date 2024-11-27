@@ -3,7 +3,7 @@ Course: Tufts CS 135 | Fall 2023
 HW4-Trees and Random Forests
 
 ## Overview
-In this assignment, you will implement decision tree and random forest models for sentiment analysis using product reviews from Amazon. The tasks involve completing coding problems related to decision tree regression and classification, training random forests, performing hyperparameter optimization, and analyzing model performance. You will also explore how to interpret the models and evaluate their effectiveness.
+In this assignment, we will implement decision tree and random forest models for sentiment analysis using product reviews from Amazon. The tasks involve completing coding problems related to decision tree regression and classification, training random forests, performing hyperparameter optimization, and analyzing model performance. You will also explore how to interpret the models and evaluate their effectiveness.
 
 ## Problems
 ### Problem 0: Code Implementation of Decision Tree Regression
