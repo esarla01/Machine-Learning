@@ -49,8 +49,8 @@ Focus: Text classification, sentiment analysis techniques
 
 ## Technical Skills Demonstrated
 
-Data preprocessing
-Model training and evaluation
-Machine learning algorithm implementation
-Performance optimization
-Feature engineering
+Data preprocessing, 
+Model training and evaluation, 
+Machine learning algorithm implementation, 
+Performance optimization, 
+Feature engineering, 
