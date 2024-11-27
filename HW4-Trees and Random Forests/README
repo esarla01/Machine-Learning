@@ -1,0 +1,70 @@
+# Intro to Machine Learning 
+Course: Tufts CS 135 | Fall 2023
+HW4-Trees and Random Forests
+
+## Overview
+In this assignment, you will implement decision tree and random forest models for sentiment analysis using product reviews from Amazon. The tasks involve completing coding problems related to decision tree regression and classification, training random forests, performing hyperparameter optimization, and analyzing model performance. You will also explore how to interpret the models and evaluate their effectiveness.
+
+## Problems
+### Problem 0: Code Implementation of Decision Tree Regression
+- **Goal**: Implement key components of a decision tree, including prediction for both leaf nodes and internal decision nodes.
+- **Tasks**:
+  - Implement the `predict` function for a `LeafNode`.
+  - Implement the `predict` function for an `InternalDecisionNode`.
+  - Implement the `select_best_binary_split` function.
+  - Implement the `train_tree` function to train a decision tree.
+
+### Problem 1: Decision Trees for Review Classification
+- **Goal**: Apply decision trees to classify sentiment in Amazon product reviews.
+- **Tasks**:
+  - **Step 1A**: Train a simple decision tree using specific hyperparameters.
+  - **Step 1B**: Perform a grid search to find the best hyperparameters for the decision tree.
+  - **Short Answer**: Analyze the structure of the decision tree and the role of internal nodes.
+  
+### Problem 2: Random Forests for Review Classification
+- **Goal**: Build and evaluate random forests to improve classification performance.
+- **Tasks**:
+  - **Step 2A**: Train a simple random forest model.
+  - **Step 2B**: Analyze feature importances.
+  - **Step 2C**: Perform a grid search to find the best hyperparameters for the random forest.
+  - **Short Answer**: Discuss the tradeoffs in hyperparameter tuning and the impact of `n_estimators`.
+
+### Problem 3: Analysis
+- **Goal**: Analyze the runtime complexity of decision trees for regression.
+- **Task**:
+  - Provide an explanation of the runtime complexity of predicting with a decision tree based on tree depth, number of features, and number of examples.
+
+## Data
+The dataset consists of Amazon product reviews, represented as bag-of-words vectors, for sentiment classification. The data includes:
+- A training set of 6346 documents
+- A validation set of 792 documents
+- A test set of 793 documents
+
+Each review is represented by a binary feature vector indicating the presence of terms in a vocabulary of 7729 words, with labels indicating sentiment (0 for negative, 1 for positive).
+
+## Report
+- Prepare a **PDF report** (max 4 pages) containing your analysis and answers to the questions.
+  - **Report content**:
+    - Problem 1: Decision Trees for Review Classification
+      - **Figure 1**: Visual representation of your decision tree.
+      - **Short Answer 1a**: Reflect on internal nodes in the tree and their meaning.
+      - **Short Answer 1b**: Discuss the best hyperparameters found in your grid search.
+    - Problem 2: Random Forests for Review Classification
+      - **Table 2**: Display top 10 important features and 10 features with minimal importance.
+      - **Short Answer 2a**: Discuss the importance of tuning `max_features`.
+      - **Short Answer 2b**: Discuss the tradeoff when adjusting `n_estimators`.
+      - **Table 3**: Summarize the performance of different models.
+      - **Short Answer 3a**: Analyze the runtime complexity of a decision tree.
+      
+## Files to Submit
+1. **PDF report**:
+   - Submit a human-readable PDF (no code, not a notebook export) containing your analysis and answers.
+   - Submit via Gradescope (link provided).
+   
+2. **ZIP file of source code**:
+   - Include the following files:
+     - `tree_utils.py` (autograded)
+     - `train_tree.py` (autograded)
+     - `select_best_binary_split.py` (autograded)
+     - `hw4_notebook.ipynb` (for completeness; manually assessed if necessary)
+   - Submit via Gradescope (link provided).
